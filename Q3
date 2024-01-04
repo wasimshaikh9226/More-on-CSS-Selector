@@ -1,0 +1,17 @@
+Unset
+<!-- given HTML code -->
+<body>
+<h1>- element -</h1>
+</body>
+<!-- Expected Output -->
+<!--Pseuo element selector -->
+
+Solution -
+style.css
+Unset
+h1::after {
+content: "selector";
+}
+h1::before {
+content: "Pseudo";
+}
